@@ -1,21 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>CRUD PHP - Justin Garret Yan</title>
+	<title>E-Laundry</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
  
     <nav class="navbar navbar-expand-lg bg-primary">
         <div class="container">
-            <a class="navbar-brand text-light" href="#">Kelola Data Mahasiswa</a>
+            <a class="navbar-brand text-light" href="#">Kelola Data Customer</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-                <a class="nav-link active text-light" aria-current="page" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Justin Garret Yan</a>
-            </div>
             </div>
         </div>
     </nav>
@@ -33,7 +30,7 @@
 	<a href="customer_view.php" class="btn btn-primary">Kembali</a>
 	<br/>
 	<br/>
-	<h3>EDIT DATA MAHASISWA</h3>
+	<h3>Edit Data Customer</h3>
    
  
 	<?php
