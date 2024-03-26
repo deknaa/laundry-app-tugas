@@ -26,57 +26,61 @@
     ?>
 
     <div class="container mt-5">
-	<br/>
-	<a href="customer_view.php" class="btn btn-primary">Kembali</a>
-	<br/>
-	<br/>
-	<h3>Edit Data Customer</h3>
-   
- 
-	<?php
-	$id = $_GET['id'];
-	$data = mysqli_query($koneksi,"select * from customer where id='$id'");
-	while($d = mysqli_fetch_array($data)){
-		?>
+        <div class="position-absolute top-50 start-50 translate-middle">
+        <br/>
+        <br/>
+        <br/>
+        <h3>Edit Data Customer</h3>
+    
+    
+        <?php
+        $id = $_GET['id'];
+        $data = mysqli_query($koneksi,"select * from customer where id='$id'");
+        while($d = mysqli_fetch_array($data)){
+            ?>
 
-		<form method="post" action="update_action.php">
-			<table>
-                <div class="mb-3">
-                    <tr>			
-                        <td class="form-label">Nama</td>
+            <form method="post" action="update_action.php">
+                <table>
+                    <div class="mb-3">
+                        <tr>			
+                            <td class="form-label">Nama</td>
+                            <td>
+                                <input type="hidden" name="id" value="<?php echo $d['id']; ?>" class="form-control">
+                                <input type="text" name="nama" value="<?php echo $d['nama']; ?>" class="form-control">
+                            </td>
+                        </tr>
+                    </div>
+                    <div class="mb-3">
+                        <tr>
+                            <td class="form-label">Alamat</td>
+                            <td><input type="text" name="alamat" value="<?php echo $d['alamat']; ?>" class="form-control"></td>
+                        </tr>
+                    </div>
+                    <div class="mb-3">
+                        <tr>
+                            <td class="form-label">Username</td>
+                            <td><input type="text" name="username" value="<?php echo $d['username']; ?>" class="form-control"></td>
+                        </tr>
+                    </div>
+                    <div class="mb-3">
+                        <tr>
+                            <td class="form-label">Password</td>
+                            <td><input type="password" name="password" value="<?php echo $d['password']; ?>" class="form-control"></td>
+                        </tr>
+                    </div>
+                    <tr>
+                        <td></td>
                         <td>
-                            <input type="hidden" name="id" value="<?php echo $d['id']; ?>" class="form-control">
-                            <input type="text" name="nama" value="<?php echo $d['nama']; ?>" class="form-control">
+                            <input type="submit" value="Simpan" class="btn btn-success mt-2">
+                            <a href="customer_view.php" class="btn btn-danger mt-2">Kembali</a>
                         </td>
-                    </tr>
-                </div>
-                <div class="mb-3">
-                    <tr>
-                        <td class="form-label">Alamat</td>
-                        <td><input type="text" name="alamat" value="<?php echo $d['alamat']; ?>" class="form-control"></td>
-                    </tr>
-                </div>
-                <div class="mb-3">
-                    <tr>
-                        <td class="form-label">Username</td>
-                        <td><input type="text" name="username" value="<?php echo $d['username']; ?>" class="form-control"></td>
-                    </tr>
-                </div>
-                <div class="mb-3">
-                    <tr>
-                        <td class="form-label">Password</td>
-                        <td><input type="password" name="password" value="<?php echo $d['password']; ?>" class="form-control"></td>
-                    </tr>
-                </div>
-				<tr>
-					<td></td>
-					<td><input type="submit" value="SIMPAN" class="btn btn-success mt-2"></td>
-				</tr>		
-			</table>
-		</form>
-		<?php 
-	}
-	?>
+                    </tr>		
+                </table>
+            </form>
+            <?php 
+        }
+        ?>
+        </div>
      </div>
 </body>
 </html>

@@ -29,6 +29,7 @@
 	<h2>Data Customer</h2>
 	<br/>
 	<a href="customer_add.php" class="btn btn-primary">+ Tambah Customer</a>
+	<a href="../index.php" class="btn btn-success">Kembali</a>
 	<br/>
 	<br/>
 	<table class="table table-striped table-hover text-center">
