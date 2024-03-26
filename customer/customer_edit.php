@@ -20,7 +20,7 @@
     <?php 
     include '../koneksi.php';
     // Membuat objek Database
-    $db = new Database();
+    $db = new \Connection\Database();
     // Mendapatkan koneksi database
     $koneksi = $db->getConnection();
     ?>
