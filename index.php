@@ -14,7 +14,7 @@
     <div class="flex gap-6 items-center justify-center text-white w-[40%]">
         <a href="#" class="hover:text-black hover:scale-105">Home</a>
         <a href="#services" class="hover:text-black hover:scale-105">Services</a>
-        <a href="#" class="hover:text-black hover:scale-105">Testimoni</a>
+        <a href="#testimoni" class="hover:text-black hover:scale-105">Testimoni</a>
         <a href="customer/customer_view.php" class="hover:text-black hover:scale-105">Customer</a>
         <a href="#" class="hover:text-black hover:scale-105">Admin</a>
     </div>
@@ -48,7 +48,7 @@
 
   <div class="px-[15%]">
     <div class="flex items-center justify-center mb-4 mt-20">
-      <h2 class="font-bold text-3xl mb-3">Testimoni</h2>
+      <h2 class="font-bold text-3xl mb-3" id="testimoni">Testimoni</h2>
     </div>
     <div class="flex justify-center items-center gap-20 mb-10 text-center">
         <div>
