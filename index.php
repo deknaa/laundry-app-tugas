@@ -16,7 +16,7 @@
         <a href="#services" class="hover:text-black hover:scale-105">Services</a>
         <a href="#testimoni" class="hover:text-black hover:scale-105">Testimoni</a>
         <a href="customer/customer_view.php" class="hover:text-black hover:scale-105">Customer</a>
-        <a href="#" class="hover:text-black hover:scale-105">Admin</a>
+        <!-- <a href="#" class="hover:text-black hover:scale-105">Admin</a> -->
     </div>
     <!-- <div class="w-[20%] flex justify-center items-center">
         <a href="#" class="bg-blue-700 text-white pl-5 pr-5 pt-2 pb-2 rounded hover:bg-blue-600 hover:shadow-md">Login</a>
