@@ -52,14 +52,17 @@
     </div>
     <div class="flex justify-center items-center gap-20 mb-10 text-center">
         <div>
+          <img src="assets/person.jpg" alt="" class="w-[200px] rounded-full">
           <h3 class="font-bold">Agus Subagio</h3>
           <p>Pelayanannya cepat dan ramah</p>
         </div>
         <div>
+        <img src="assets/person.jpg" alt="" class="w-[200px] rounded-full">
           <h3 class="font-bold">Ahmad Subarjo</h3>
           <p>Pelayanannya Bersih dan rapih</p>
         </div>
         <div>
+        <img src="assets/person.jpg" alt="" class="w-[200px] rounded-full">
           <h3 class="font-bold">Asep Kuncoro</h3>
           <p>Pekerjaannya cepat dan bagus</p>
         </div>
