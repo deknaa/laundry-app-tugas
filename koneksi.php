@@ -55,5 +55,4 @@ class ExtendedDatabase extends Database {
         echo "Koneksi ditutup secara manual."; // Menambahkan pesan tambahan
     }
 }
-
 ?>
