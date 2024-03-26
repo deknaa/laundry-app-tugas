@@ -20,5 +20,10 @@ class Database {
     public function getConnection() {
         return $this->koneksi;
     }
+
+    // method untuk tutup database
+    public function closeDatabase(){
+        $this->koneksi->close();
+    }
 }
 ?>
