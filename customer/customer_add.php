@@ -18,35 +18,37 @@
     </nav>
 
 	<div class="container">
-		<a href="customer_view.php" class="btn btn-primary mt-5">Kembali</a>
-		<br/>
-		<br/>
-		<h3 class="mb-3">Tambah Data Customer</h3>
-			<form method="post" action="add_action.php">
-				<table>
-					<tr>			
-						<td class="form-label">Nama</td>
-						<td><input type="text" name="nama" class="form-control"></td>
-					</tr>
-					<tr>
-						<td class="form-label">Alamat</td>
-						<td><input type="text" name="alamat" class="form-control"></td>
-					</tr>
-					<tr>
-						<td class="form-label">Username</td>
-						<td><input type="text" name="username" class="form-control"></td>
-					</tr>
-					<tr>
-						<td class="form-label">Password</td>
-						<td><input type="password" name="password" class="form-control"></td>
-					</tr>
-					<tr>
-						<td></td>
-						<td><input type="submit" value="SIMPAN" class
-						="btn btn-success mt-2"></td>
-					</tr>		
-				</table>
-			</form>
+		<div class="position-absolute top-50 start-50 translate-middle">
+			<br/>
+			<br/>
+			<h3 class="mb-3">Tambah Data Customer</h3>
+				<form method="post" action="add_action.php">
+					<table>
+						<tr>			
+							<td class="form-label">Nama</td>
+							<td><input type="text" name="nama" class="form-control"></td>
+						</tr>
+						<tr>
+							<td class="form-label">Alamat</td>
+							<td><input type="text" name="alamat" class="form-control"></td>
+						</tr>
+						<tr>
+							<td class="form-label">Username</td>
+							<td><input type="text" name="username" class="form-control"></td>
+						</tr>
+						<tr>
+							<td class="form-label">Password</td>
+							<td><input type="password" name="password" class="form-control"></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><input type="submit" value="Simpan" class
+							="btn btn-success mt-2">
+							<a href="customer_view.php" class="btn btn-danger mt-2">Kembali</a></td>
+						</tr>		
+					</table>
+				</form>
+			</div>
 		</div>
 </body>
 </html>
