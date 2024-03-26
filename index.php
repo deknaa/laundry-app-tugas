@@ -30,7 +30,7 @@
 
   <div class="px-[15%]">
     <div class="flex items-center justify-center mb-4 mt-4">
-      <h2 class="font-bold text-xl">Services</h2>
+      <h2 class="font-bold text-3xl">Services</h2>
     </div>
     <div class="flex items-center gap-10">
       <div id="services">
@@ -43,6 +43,26 @@
           <li>Pengelolaan Data Pesanan</li>
         </ol>
       </div>
+    </div>
+  </div>
+
+  <div class="px-[15%]">
+    <div class="flex items-center justify-center mb-4 mt-20">
+      <h2 class="font-bold text-3xl mb-3">Testimoni</h2>
+    </div>
+    <div class="flex justify-center items-center gap-20 mb-10 text-center">
+        <div>
+          <h3 class="font-bold">Agus Subagio</h3>
+          <p>Pelayanannya cepat dan ramah</p>
+        </div>
+        <div>
+          <h3 class="font-bold">Ahmad Subarjo</h3>
+          <p>Pelayanannya Bersih dan rapih</p>
+        </div>
+        <div>
+          <h3 class="font-bold">Asep Kuncoro</h3>
+          <p>Pekerjaannya cepat dan bagus</p>
+        </div>
     </div>
   </div>
 
