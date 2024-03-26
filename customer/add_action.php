@@ -15,7 +15,7 @@ $password = $_POST['password'];
 // menginput data ke database
 mysqli_query($koneksi,"insert into customer values('','$nama','$alamat','$username', '$password')");
  
-// mengalihkan halaman kembali ke index.php
+// mengalihkan halaman kembali ke customer_view.php
 header("location:customer_view.php");
  
 ?>

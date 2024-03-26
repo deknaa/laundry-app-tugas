@@ -16,7 +16,7 @@ $password = $_POST['password'];
 // update data ke database
 mysqli_query($koneksi,"update customer set nama='$nama', alamat='$alamat', username='$username', password='$password' where id='$id'");
  
-// mengalihkan halaman kembali ke index.php
+// mengalihkan halaman kembali ke customer_view.php
 header("location:customer_view.php");
  
 ?>
