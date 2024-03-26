@@ -29,7 +29,7 @@
 	<h2>Data Customer</h2>
 	<br/>
 	<a href="customer_add.php" class="btn btn-primary">+ Tambah Customer</a>
-	<a href="../index.php" class="btn btn-success">Kembali</a>
+	<a href="../index.php" class="btn btn-success"><i class="fa-solid fa-arrow-left"></i> Kembali</a>
 	<br/>
 	<br/>
 	<table class="table table-striped table-hover text-center">
@@ -51,8 +51,8 @@
 				<td><?php echo $d['alamat']; ?></td>
 				<td><?php echo $d['username']; ?></td>
 				<td>
-					<a href="customer_edit.php?id=<?php echo $d['id']; ?>" class="btn btn-success">Edit</a>
-					<a href="customer_delete.php?id=<?php echo $d['id']; ?>" class="btn btn-danger">Hapus</a>
+					<a href="customer_edit.php?id=<?php echo $d['id']; ?>" class="btn btn-success"><i class="fa-solid fa-pencil"></i> Edit</a>
+					<a href="customer_delete.php?id=<?php echo $d['id']; ?>" class="btn btn-danger"><i class="fa-solid fa-trash"></i> Hapus</a>
 				</td>
 			</tr>
 			<?php 
@@ -81,5 +81,6 @@
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/fb97ee2ace.js" crossorigin="anonymous"></script>
 </body>
 </html>
